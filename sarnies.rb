@@ -39,7 +39,7 @@ def insertDocs(coll)
     # define the Ruby Hash object for the document
     doc =
         {
-            :description => "#{range} #{ing1},#{ing2} and #{ing3} on #{bread}",
+            :description => "#{range} #{ing1}, #{ing2} and #{ing3} on #{bread}",
             :fillings => [
                 {
                     :ingredient => ing1,
